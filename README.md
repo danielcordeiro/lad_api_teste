@@ -1,29 +1,5 @@
-# Projeto SPRING-BOOT2
+Rodando o projeto:
+1.Executar no diretorio > mvn clean install -DskipTests -e
+2.Executar o jar gerado > java -jar target\teste-lad-0.0.1-SNAPSHOT.jar
+3.Acessar URL > http://localhost/swagger-ui.html
 
-```
-Java 8
-Spring-Boot;
-Spring-Security;
-JWT;
-AWS S3;
-Swagger;
-Email com layout thymeleaf;
-BD:
- *MySql
- *H2
- *MongoDB
-```
-
-## Referências:
-```
-https://spring.io/projects/spring-boot
-https://jwt.io/
-https://aws.amazon.com/pt/sdk-for-java/
-https://www.mysql.com/
-https://www.mongodb.com/
-http://www.h2database.com/html/main.html
-https://swagger.io/
-https://maven.apache.org/
-https://commons.apache.org/proper/commons-io/
-https://github.com/rkalla/imgscalr
-```
